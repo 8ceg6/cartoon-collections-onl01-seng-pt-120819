@@ -14,8 +14,8 @@ def summon_captain_planet(call)
         
 end
 
-def long_planeteer_calls(extend)
-        extend.map do |long|
+def long_planeteer_calls(array)
+        array.any? do |long|
           if long.length > 4 
         end 
         binding.pry
