@@ -31,7 +31,7 @@ def find_the_cheese(array)
       array.select do |list|
             cheese_types.include?(list)
       end
-      binding.pry
+     # binding.pry
 end
 
 
